@@ -1,3 +1,6 @@
+import time
+start = time.process_time()
+
 with open('Inputs/day_8.txt','r') as file:
     lines = file.readlines()
     
@@ -119,3 +122,7 @@ for row in inter:
         res.append(row)
 
 print("Number of Inters in line: " + str(len(res)))
+
+
+# your code here    
+print(str(time.process_time() - start) + " Sec")
