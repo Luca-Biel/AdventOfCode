@@ -9,7 +9,7 @@ for line in lines:
 maxx = len(data[0])
 maxy = len(data)
 overall=[]
-results=[]
+results=[] 
 for k in range(0,maxy):
     for l in range(0,maxx):
         if [k,l] not in overall:
