@@ -81,3 +81,6 @@ for row in data:
 				
 				
 print("part 2 solved as: " + str(tot_sol_con))
+
+
+ 
