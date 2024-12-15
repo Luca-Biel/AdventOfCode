@@ -63,7 +63,7 @@ for x in range(len(data_map[0])):
     for y in range(len(data_map)):
         if data_map[y][x] == 'O':
             total = total + 100 * y + x
-total
+print(total)
 
 
 
